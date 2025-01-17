@@ -1,8 +1,9 @@
 import random
+###
 #import character
 
 #Daño
-# (Iniciativa) (Tirada <= Pifia = Pifia) (Tirada + BO - BD = Daño) (Daño = Tabla de daño)
+# (Iniciativa) (Tirada <= Pifia = Pifia) (Tirada + BO - BD + Bonificador = Daño) (Daño = Tabla de daño)
 #(Tabla de daño = Tabla de Crit + Track de Vida)
 
 #Iniciativa
@@ -14,3 +15,5 @@ import random
 #Tablas de daño
 
 #Critico
+
+###
