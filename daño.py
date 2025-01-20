@@ -1,6 +1,5 @@
 import random
-###
-#import character
+import characters
 
 #Daño
 # (Iniciativa) (Tirada <= Pifia = Pifia) (Tirada + BO - BD + Bonificador = Daño) (Daño = Tabla de daño)
@@ -15,5 +14,3 @@ import random
 #Tablas de daño
 
 #Critico
-
-###
