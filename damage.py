@@ -3,14 +3,14 @@ import characters
 
 #Daño
 # (Iniciativa) (Tirada <= Pifia = Pifia) (Tirada + BO - BD + Bonificador = Daño) (Daño = Tabla de daño)
-#(Tabla de daño = Tabla de Crit + Track de Vida)
+# (Tabla de daño = Tabla de Crit + Track de Vida)
 
-#Iniciativa
+# Iniciativa
 
-#Tirada
+# Tirada
 
-#Pifias
+# Pifias
 
-#Tablas de daño
+# Tablas de daño
 
-#Critico
+# Critico
