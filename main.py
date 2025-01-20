@@ -1,4 +1,3 @@
-
 from characters import Characters
 from damage import Calculator
 
@@ -15,7 +14,7 @@ def menu():
     print("1- Creador de Personajes")
     print("2- Combate")
     print("3- Salir")
-    menu_num = input("Que opcion desea realizar ")
+    menu_num = int(input("Que opcion desea realizar "))
 
     if menu_num == 1:
         Characters(party, npc, animals)
