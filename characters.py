@@ -27,6 +27,10 @@ class Characters:
 class Player(Characters):
     def __init__(self, party):
         super().__init__(party)
+        self.creator()
+    
+    def creator(self):
+        pass
 
 class NPC(Characters):
     def __init__(self, npc):
