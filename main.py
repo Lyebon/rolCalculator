@@ -1,11 +1,11 @@
 # [40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130, 135, 140, 145, 150]
-
+import json
 from character import *
 from calculator import *
-import json
 
-with open("char_info.json", "r") as json_file:
-    char_info = json_file.read()
+
+with open("char_info.json", "r") as f:
+    char_info = f.read()
     characters = json.loads(char_info)
 
 def main():

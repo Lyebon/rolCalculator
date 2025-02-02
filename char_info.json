@@ -1,0 +1,16 @@
+{
+    "Jugador": ["ID", "Nombre", "Raza", "Estatura", "Peso", "Genero", "Edad", "Pelo", "Ojos", "Especial Fisico", "Personalidad", "Motivacion", "Alineamiento", "Status", "Familia", "Profesion", "Nivel", "Exp"],
+    "Caracteristicas":["Fuerza", "Agilidad", "Constitucion", "Inteligenci", "Intuicion", "Presencia", "Apariencia"],
+    "Maniobra y Movimiento": ["Sin Armadura", "Cuero", "Cuero Endurecido", "Cota de Malla", "Coraza"],
+    "Habilidades con Armas":["Filo", "Contundentes", "A dos Manos", "Arrojadizas", "Proyectiles", "Arma de Asta"],
+    "Habilidades Generales":["Trepar", "Montar", "Nadar", "Rastrear"],
+    "Habilidades de Sufterfugio":["Emboscar", "Asechar/Esconderse", "Abrir Cerraduras", "Desactivar Trampas"],
+    "Habilidades Magicas":["Leer Runas", "Usar Objeto", "Sortilegio Dirigido", "Sortilegio Base"],
+    "Desarrollo Fisico":["Persepcion", "Vida"],
+    "Habilidades Secundarias":[],
+    "Resistencias":["Esencia", "Canalizacion", "Venenos", "Enfermedades", "Frio", "Calor"],
+    "Listas de Sortilegio":[],
+    "Idiomas":[],
+    "Peso":[]
+}
+
