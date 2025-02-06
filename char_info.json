@@ -1,16 +1,16 @@
 {
-    "Jugador": ["ID", "Nombre", "Raza", "Estatura", "Peso", "Genero", "Edad", "Pelo", "Ojos", "Especial Fisico", "Personalidad", "Motivacion", "Alineamiento", "Status", "Familia", "Profesion", "Nivel", "Exp"],
-    "Caracteristicas":["Fuerza", "Agilidad", "Constitucion", "Inteligenci", "Intuicion", "Presencia", "Apariencia"],
-    "Maniobra y Movimiento": ["Sin Armadura", "Cuero", "Cuero Endurecido", "Cota de Malla", "Coraza"],
-    "Habilidades con Armas":["Filo", "Contundentes", "A dos Manos", "Arrojadizas", "Proyectiles", "Arma de Asta"],
-    "Habilidades Generales":["Trepar", "Montar", "Nadar", "Rastrear"],
-    "Habilidades de Sufterfugio":["Emboscar", "Asechar/Esconderse", "Abrir Cerraduras", "Desactivar Trampas"],
-    "Habilidades Magicas":["Leer Runas", "Usar Objeto", "Sortilegio Dirigido", "Sortilegio Base"],
-    "Desarrollo Fisico":["Persepcion", "Vida"],
-    "Habilidades Secundarias":[],
-    "Resistencias":["Esencia", "Canalizacion", "Venenos", "Enfermedades", "Frio", "Calor"],
-    "Listas de Sortilegio":[],
-    "Idiomas":[],
-    "Peso":[]
+    "Jugador": {"ID": null, "Nombre": null, "Raza": null, "Estatura": null, "Peso": null, "Genero": null, "Edad": null, "Pelo": null, "Ojos": null, "Especial Fisico": null, "Personalidad": null, "Motivacion": null, "Alineamiento": null, "Status": null, "Familia": null, "Profesion": null, "Nivel": null, "Exp": null},
+    "Caracteristicas":{"Fuerza": null, "Agilidad": null, "Constitucion": null, "Inteligenci": null, "Intuicion": null, "Presencia": null, "Apariencia": null},
+    "Maniobra y Movimiento": {"Sin Armadura": null, "Cuero": null, "Cuero Endurecido": null, "Cota de Malla": null, "Coraza": null},
+    "Habilidades con Armas":{"Filo": null, "Contundentes": null, "A dos Manos": null, "Arrojadizas": null, "Proyectiles": null, "Arma de Asta": null},
+    "Habilidades Generales":{"Trepar": null, "Montar": null, "Nadar": null, "Rastrear": null},
+    "Habilidades de Sufterfugio":{"Emboscar": null, "Asechar/Esconderse": null, "Abrir Cerraduras": null, "Desactivar Trampas: null"},
+    "Habilidades Magicas":{"Leer Runas": null, "Usar Objeto": null, "Sortilegio Dirigido": null, "Sortilegio Base": null},
+    "Desarrollo Fisico":{"Persepcion": null, "Vida": null},
+    "Habilidades Secundarias":{},
+    "Resistencias":{"Esencia": null, "Canalizacion": null, "Venenos": null, "Enfermedades": null, "Frio": null, "Calor": null},
+    "Listas de Sortilegio":{},
+    "Idiomas":{},
+    "Peso":{}
 }
 
