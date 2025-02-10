@@ -1,21 +1,19 @@
-char_info = {
-    "caracteristicas":{"fue": 0, "agi": 0, "con": 0, "int": 0,"i": 0, "pre": 0},
-    "bonificador": {"fue": 0, "agi": 0, "con": 0, "int": 0,"i": 0, "pre": 0},
-    "habilidades": {"mym":{"sa": 0, "c": 0, "ce": 0, "cm": 0, "co": 0},
-                    "arma":{"filo": 0, "contundentes": 0, "dos_manos": 0, "arrojadizas": 0,"proyectiles": 0, "asta": 0},
-                    "generales":{"trepar": 0, "montar": 0, "nadar": 0, "rastrear": 0,},
-                    "subterfugio":{"emboscar": 0, "asechar_esconderse": 0, "abrir_cerraduras": 0, "desactivar_trampas": 0},
-                    "magicas":{"leer_runas": 0, "usar_objeto": 0, "sortilegio_dirigido": 0, "sortilegio_base": 0},
-                    "fisico":{"vida":0, "persepcion": 0},
-                    "sortilegio":[],
-                    "idiomas":{},
-                    "historial": 0,},
-    "resistencias":{"esencia": 0, "canalizacion": 0, "venenos": 0, "enfermedades": 0, "frio": 0, "calor": 0},
-    "secundarias":{},
-    "billetera":{"mm":0, "mo":0, "mp":0, "mb":0, "mc":0, "me":0},
-    "experiencia":{"lvl": 0, "xp": 0, "movimiento": 1},
-    "inventario":{"armas":{}, "objetos magicos":{}, "accesorios":{}, "hierbas y pociones":{}, "armadura":{}},
-}
+caracteristicas = {"fue": 0, "agi": 0, "con": 0, "int": 0,"i": 0, "pre": 0}
+bonificador = {"fue": 0, "agi": 0, "con": 0, "int": 0,"i": 0, "pre": 0}
+habilidades = {"mym":{"sa": 0, "c": 0, "ce": 0, "cm": 0, "co": 0},
+                "arma":{"filo": 0, "contundentes": 0, "dos_manos": 0, "arrojadizas": 0,"proyectiles": 0, "asta": 0},
+                "generales":{"trepar": 0, "montar": 0, "nadar": 0, "rastrear": 0,},
+                "subterfugio":{"emboscar": 0, "asechar_esconderse": 0, "abrir_cerraduras": 0, "desactivar_trampas": 0},
+                "magicas":{"leer_runas": 0, "usar_objeto": 0, "sortilegio_dirigido": 0, "sortilegio_base": 0},
+                "fisico":{"vida":0, "persepcion": 0},
+                "sortilegio":[],
+                "idiomas":{},
+                "historial": 0,}
+resistencias = {"esencia": 0, "canalizacion": 0, "venenos": 0, "enfermedades": 0, "frio": 0, "calor": 0}
+secundarias = {}
+billetera = {"mm":0, "mo":0, "mp":0, "mb":0, "mc":0, "me":0}
+experiencia = {"lvl": 0, "xp": 0, "movimiento": 1}
+inventario = {"armas":{}, "objetos magicos":{}, "accesorios":{}, "hierbas y pociones":{}, "armadura":{}}
 
 bonificador_car = {1:-35, 3:-30, 5:-25, 7:-20, 9:-15, 14:-10, 19:-5, 74:0, 89:5, 94:10, 97:15, 99:20, 100:25, 101:30, 102:35}
 
@@ -238,7 +236,7 @@ player_info = {"id": None, "nombre": None,"familia": None, "raza": None, "estatu
 idiomas = []
 sortilegios= {}
 
-clases = {
+bonificador_nivel = {
     "explorador":{"arma":1,"generales":1, "subterfugio":2, "fisico":{"persepcion":3}},
     "montaraz": {"arma":2,"generales":3, "fisico":{"persepcion":2}, "subterfugio":{"asechar_esconderse":2}},
     "guerrero": {"arma":3, "generales":1, "fisico":{"vida":2}},
@@ -247,7 +245,7 @@ clases = {
     "animista": {"magico":{"leer_runas":1, "usar_objeto":1,"sortilegio_dirigido":2, "sortilegio_base":2}, "generales":1, "fisico":{"perspcion":1}}
     }
 
-desarrollo = {
+puntos_nivel = {
     "explorador":{"mym":1, "arma":3, "generales":3, "subterfugio":5, "magicas":0, "fisico":2 , "idiomas":1, "sortilegio":0},
     "montaraz":{"mym":2, "arma":3, "generales":4, "subterfugio":2, "magicas":0, "fisico":2 , "idiomas":1, "sortilegio":1},
     "guerrero":{"mym":3, "arma":5, "generales":2, "subterfugio":2, "magicas":0, "fisico":3 , "idiomas":0, "sortilegio":0},
@@ -255,6 +253,3 @@ desarrollo = {
     "mago":{"mym":0, "arma":0, "generales":2, "subterfugio":0, "magicas":5, "fisico":1 , "idiomas":2, "sortilegio":5},
     "animista":{"mym":1, "arma":1, "generales":2, "subterfugio":1, "magicas":2, "fisico":1 , "idiomas":2, "sortilegio":5},
 }
-
-for num in char_info["caracteristicas"]:
-            print (char_info["caracteristicas"][num])
