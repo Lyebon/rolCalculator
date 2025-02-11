@@ -1,5 +1,5 @@
-caracteristicas = {"fue": 0, "agi": 0, "con": 0, "int": 0,"i": 0, "pre": 0}
-bonificador = {"fue": 0, "agi": 0, "con": 0, "int": 0,"i": 0, "pre": 0}
+caracteristicas = {"fue": 0, "agi": 0, "con": 0, "int": 0, "i": 0, "pre": 0}
+bonificador_car = {"fue": 0, "agi": 0, "con": 0, "int": 0,"i": 0, "pre": 0}
 habilidades = {"mym":{"sa": 0, "c": 0, "ce": 0, "cm": 0, "co": 0},
                 "arma":{"filo": 0, "contundentes": 0, "dos_manos": 0, "arrojadizas": 0,"proyectiles": 0, "asta": 0},
                 "generales":{"trepar": 0, "montar": 0, "nadar": 0, "rastrear": 0,},
@@ -15,7 +15,7 @@ billetera = {"mm":0, "mo":0, "mp":0, "mb":0, "mc":0, "me":0}
 experiencia = {"lvl": 0, "xp": 0, "movimiento": 1}
 inventario = {"armas":{}, "objetos magicos":{}, "accesorios":{}, "hierbas y pociones":{}, "armadura":{}}
 
-bonificador_car = {1:-35, 3:-30, 5:-25, 7:-20, 9:-15, 14:-10, 19:-5, 74:0, 89:5, 94:10, 97:15, 99:20, 100:25, 101:30, 102:35}
+numero_por_car = {1:-35, 3:-30, 5:-25, 7:-20, 9:-15, 14:-10, 19:-5, 74:0, 89:5, 94:10, 97:15, 99:20, 100:25, 101:30, 102:35}
 
 raza = {3:"hobbit", 8:"umli", 21:"enano", 25:"wose", 75:{5:"dunedain",10:"rohirrim", 15:"beornida", 20:"bosques", 25:"dorwinrim", 30:"lossoth"
     , 54:"campesino", 78:"burgues", 83:"dunlendino", 86:"este", 89:"haradrim", 92:"corsario", 95:"variag", 100:"numeroniano"},
