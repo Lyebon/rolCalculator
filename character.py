@@ -6,7 +6,7 @@ import random
 class Creator_char():
     def __init__(self):
         self.caracteristica = caracteristicas
-        self.char_final = bonificador_car
+        self.char_final = caracteristicas
         self.bonificador_de_char = numero_por_car
         character = self.ensambler()
         print (character)

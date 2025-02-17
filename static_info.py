@@ -1,5 +1,4 @@
 caracteristicas = {"fue": 0, "agi": 0, "con": 0, "int": 0, "i": 0, "pre": 0}
-bonificador_car = {"fue": 0, "agi": 0, "con": 0, "int": 0,"i": 0, "pre": 0}
 habilidades = {"mym":{"sa": 0, "c": 0, "ce": 0, "cm": 0, "co": 0},
                 "arma":{"filo": 0, "contundentes": 0, "dos_manos": 0, "arrojadizas": 0,"proyectiles": 0, "asta": 0},
                 "generales":{"trepar": 0, "montar": 0, "nadar": 0, "rastrear": 0,},
