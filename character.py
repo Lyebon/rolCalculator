@@ -3,32 +3,33 @@ import random
 
 
 
+
 class Creator_char():
     def __init__(self):
         self.caracteristica = caracteristicas
-        self.char_final = caracteristicas
-        self.bonificador_de_char = numero_por_car
-        character = self.ensambler()
-        print (character)
-    
-    def ran_generator(self):
-        return random.randrange(1,100)
+        self.char_final = bonificador_car
+        self.personaje_raza = self.raza_char()
+        personaje = self.generador_caracteristicas()
+        print (personaje, self.personaje_raza)
 
-    def ensambler(self):
-        personaje = {}
-        personaje["caracteristicas"].update(self.generador_caracteristicas())
-        personaje.update(self.generador_bonif_caracteristicas(personaje["caracteristicas"]))
-        return personaje
+
+    def ran_generator(self):
+        return random.randint(1,100)
+    
+    def check_out(self, num, dic):
+        for dato in dic:
+            if num <= dato:
+                return dato
 
     def generador_caracteristicas(self):
-        for key in self.caracteristica:
-            self.caracteristica[key] = self.ran_generator()
-        return self.caracteristica
-    
-    def generador_bonif_caracteristicas(self):
-        for key in self.caracteristica:
-            self.char_final[key]
-            
+        for char in caracteristicas:
+            num = self.ran_generator()
+            self.caracteristica[char] = num
+            self.char_final[char] = numero_por_car[self.check_out(num, numero_por_car)]
+        return self.caracteristica, self.char_final
 
-class Lvl_up(Creator_char):
-    pass
+    def raza_char(self):
+        raza_personaje = self.check_out(self.ran_generator(), raza)
+        if raza_personaje == 75:
+            return raza[75][self.check_out(self.ran_generator(), raza[raza_personaje])]
+        return raza[raza_personaje]
