@@ -230,7 +230,7 @@ adolescencia = {
                                 "vida":5,"persepcion":1,"sortilegio":0,"idiomas":2,"historial":1}
 }
 
-player_info = {"id": None, "nombre": None,"familia": None, "raza": None, "estatura": None,
+player_info = {"id": None, "nombre": None,"familia": None, "estatura": None,
                 "peso": None, "genero": None, "edad": None, "pelo": None,
                 "ojos": None, "especial Fisico": None, "personalidad": None, "motivacion": None,
                 "alineamiento": None, "status": None, "profesion": None, "apariencia": None}
